@@ -45,30 +45,7 @@ Final model optimized for BI tools and reporting with fact and dimension tables:
 
 ---
 
-## ⚙️ How to Use
 
-1. **Create Tables**  
-   Run `CREATE DDL BRONZE.sql` to create the necessary tables in the `bronze` schema.
-
-2. **Load Data**  
-   Execute `bronze.load_bronze` stored procedure from `DEVELOP SQL LOAD SCRIPT.sql` to bulk insert CSVs into Bronze tables.
-
-> 🔧 **Note:** Update the file paths in `BULK INSERT` statements to match your local CSV directory.
-
----
-
-## 🧪 Future Enhancements
-
-- Add Silver and Gold layer transformations
-- Implement incremental loading logic
-- Add tests and logging
-- Create Power BI dashboards
-
----
-
-## 👨‍💻 Author
-
-Aravind Prabhakar A
 
 ---
 
